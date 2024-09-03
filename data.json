@@ -1,0 +1,225 @@
+{
+  "resumeTitle": {
+    "title": "Son Chi Won"
+  },
+
+  "information": {
+    "name": "손치원",
+    "contact": [
+      { "id": 0, "name": "Email", "href": "sonchiwon91@gmail.com", "isEmail": true },
+      { "id": 1, "name": "Github", "href": "https://github.com/chiwonson" },
+      { "id": 2, "name": "Blog", "href": "" }
+    ]
+  },
+
+  "workExperience": [
+    {
+      "id": 0,
+      "name": "이제이텍",
+      "position": "엔지니어",
+      "period": ["2016. 03", "2017. 08"]
+    },
+    {
+      "id": 1,
+      "name": "화인이엔지",
+      "position": "배관사",
+      "period": ["2021. 07", "2024.03"]
+    }
+  ],
+
+  "project": [
+    {
+      "id": 0,
+      "name": "KOSMO미니 프로젝트",
+      "description": "부품 재고 키오스크 제작",
+      "webUrl": "https://github.com/chiwonson/mini-project",
+      "repoUrl": "https://github.com/chiwonson/mini-project",
+      "isTeam": true,
+      "period": ["2024. 04.09", "2024. 04.11"],
+      "stack": ["java"]
+    },
+    {
+      "id": 1,
+      "name": "KOSMO 중간 프로젝트",
+      "description": "해외 축구 팬 페이지 제작",
+      "webUrl": "https://github.com/chiwonson/semi-final-project",
+      "repoUrl": "https://github.com/chiwonson/semi-final-project",
+      "isTeam": true,
+      "period": ["2024. 06.03", "2024. 06.11"],
+      "stack": ["Java", "Springboot", "JavaScript", "HTML"]
+    },
+    {
+      "id": 2,
+      "name": "KOSMO 최종 프로젝트",
+      "description": "빵 관련 웹사이트 제작",
+      "webUrl": "https://github.com/chiwonson/kosmo-final-project",
+      "repoUrl": "https://github.com/chiwonson/kosmo-final-project",
+      "isTeam": true,
+      "period": ["2024. 07.15", "2024. 08.27"],
+      "stack": ["SpringBoot", "Flask", "React", "JavaScript", "HTML", "CSS3", "Mysql", "MongoDB", "SpringSecurity",
+                "Thymeleaf", "Apache Maven", "Tomcat"]
+    },
+    {
+      "id": 3,
+      "name": "첫번째 개인 프로젝트",
+      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
+      "webUrl": "https://github.com/sjoleee/",
+      "repoUrl": "https://github.com/sjoleee/",
+      "isTeam": false,
+      "period": ["2022. 10", "2022. 11"],
+      "stack": ["JavaScript", "HTML/CSS"]
+    }
+  ],
+
+  "activity": [
+    {
+      "id": 0,
+      "name": "",
+      "period": [""],
+      "description": ""
+    },
+    {
+      "id": 1,
+      "name": "",
+      "period": [""],
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "두번째 활동",
+      "period": ["2022. 06", "2022. 08"],
+      "description": "두번째 활동에 대한 간략한 설명"
+    },
+    {
+      "id": 3,
+      "name": "두번째 활동",
+      "period": ["2022. 06", "2022. 08"],
+      "description": "두번째 활동에 대한 간략한 설명"
+    }
+  ],
+
+  "education": [
+    {
+      "id": 0,
+      "name": "상지대학교",
+      "period": ["2010. 03", "2016. 02"],
+      "description": "신에너지 자원공학과 졸업"
+    },
+    {
+      "id": 1,
+      "name": "KOSMO 풀스택 웹 개발자 ",
+      "period": ["2024. 03.04", "2024. 08.27"],
+      "description": "java 기반 백엔드 & 프론트엔드 웹 개발자 양성과정"
+    }
+
+  ],
+
+  "certificate": [
+    {
+      "id": 0,
+      "name": "운전면허증",
+      "date": "2015. 01. 08",
+      "organizer": "경찰청"
+    }
+  ],
+
+  "award": [
+    {
+      "id": 0,
+      "name": "첫번째 수상",
+      "date": "2019. 07. 28",
+      "organizer": "수여기관",
+      "description": "첫번째 수상에 대한 간략한 설명"
+    }
+  ],
+
+  "skill" : [
+    {
+      "id": 0,
+      "name": "java",
+      "description": "기본문법과 객체지향프로그래밍(OOP) 개념을 학습했습니다. MVC패턴을 이해하고 적용할수 있습니다.",
+      "category":"Language"
+    },
+    {
+      "id": 1,
+      "name": "Python",
+      "description": "간단한 웹 서버 구축에 활용하였습니다. 프레임워크(Flask)를 통해 웹 개발 프로젝트를 진행한 경험이 있습니다."
+    },
+    {
+      "id": 2,
+      "name": "JavaScript",
+      "description": "ES6의 최신 문법을 이해하고 활용할 수 있습니다. DOM 조작, 이벤트 처리, 비동기 프로그래밍을 통해 동적인 웹 페이지를 구현을 학습했습니다."
+    },
+    {
+      "id": 3,
+      "name": "Spring Boot",
+      "description": "Java 기반의 Spring Boot 프레임워크를 사용하여 웹 애플리케이션을 개발경험하였습니다. RESTful API 개발과 데이터베이스 연동, 보안 설정 등을 학습했으며 이를 통해 실습 프로젝트를 완성했습니다.",
+      "category": "Framework"
+    },
+    {
+      "id": 4,
+      "name": "Flask",
+      "description": "Flask의 경량성과 확장 가능한 구조 덕분에 빠르게 프로토타입을 만들 수 있었으며, Jinja2 템플릿 엔진을 사용하여 동적인 HTML 페이지를 생성했습니다."
+    },
+    {
+      "id": 5,
+      "name": "React",
+      "description": "컴포넌트 기반의 웹 애플리케이션을 개발한 경험이 있습니다.JSX를 활용하여 UI를 설계하고,React Router를 사용하여 다중 페이지 애플리케이션에서의 라우팅을 처리해보았으며 Axios를 통해 서버와 데이터를 주고받는 작업도 수행했습니다.\nPython\n간단한 웹 서버 구축에 활용하였습니다. 프레임워크(Flask)를 통해 웹 개발 프로젝트를 진행한 경험이 있습니다."
+    },
+    {
+      "id": 6,
+      "name": "Oracle",
+      "description": "데이터베이스의 기본적인 SQL 쿼리 작성법을 학습했습니다. 테이블 생성, 데이터 삽입 및 조회, JOIN, 서브쿼리 등을 통해 데이터를 관리하는 방법을 익혔습니다."
+    },
+    {
+      "id": 7,
+      "name": "Mysql",
+      "description": "데이터베이스를 설계하고, 데이터 모델링과 관계 설정을 학습했습니다. Java와 MySQL을 연동하여 CRUD 작업을 수행하며, 프로젝트에서 MySQL을 메인 DB로 사용한 경험이 있습니다."
+    },
+    {
+      "id": 8,
+      "name": "MongoDB",
+      "description": "NoSQL 데이터베이스인 MongoDB를 활용한 경험이 있습니다. JSON 구조의 데이터를 저장하고 데이터 처리를 위해 인덱싱을 적용한 경험이 있습니다."
+    },
+    {
+      "id": 9,
+      "name": "Thymeleaf",
+      "description": "Java 기반의 Spring Boot 프레임워크를 사용하여 웹 애플리케이션을 개발경험하였습니다. RESTful API 개발과 데이터베이스 연동, 보안 설정 등을 학습했으며 이를 통해 실습 프로젝트를 완성했습니다."
+    },
+    {
+      "id": 10,
+      "name": "Spring Security",
+      "description": "프로젝트에서 로그인, 사용자 인증, 권한 부여 기능을 구현하는 데 사용했습니다. 간단한 보안 설정을 통해 애플리케이션의 안전성을 높였습니다. 인증 (Authentication)과 인가(Authorization)를 담당했습니다.\n"
+    },
+    {
+      "id": 11,
+      "name": "Maven (Build Tool)",
+      "description": "프로젝트에서 Maven을 사용하여 라이브러리 의존성을 효율적으로 관리하고, 빌드 과정을 자동화했습니다. 또한, Maven 프로젝트 구조를 통해 일관된 코드 작성 및 관리를 경험했습니다"
+    },
+    {
+      "id": 12,
+      "name": "Apache Tomcat (Server)",
+      "description": "프로젝트에서 Apache Tomcat을 사용하여 개발한 웹 애플리케이션을 테스트했습니다. Tomcat의 설정을 통해 애플리케이션의 환경을 맞추고, 서버 관리를 해보았습니다."
+    },
+    {
+      "id": 13,
+      "name": "HTML5",
+      "description": "웹 페이지의 구조와 내용을 정의하는 마크업 언어로, 시맨틱 태그를 사용하여 SEO와 접근성에 최적화된 웹 페이지를 설계했습니다. HTML5를 활용해 웹 페이지의 기본 틀을 구성하고, 다양한 멀티미디어 요소를 통합했습니다."
+    },
+    {
+      "id": 14,
+      "name": "CSS3",
+      "description": "CSS3를 사용하여 레이아웃과 스타일을 적용하는 방법을 학습했습니다."
+    },
+    {
+      "id": 15,
+      "name": "Git & Github",
+      "description": "팀 프로젝트에서 Git을 활용하여 버전 관리를 수행했습니다. 브랜치 전략을 사용하여 협업하고 충돌 해결과 코드 리뷰 과정을 통해 팀원들과의 협업 경험을 쌓았습니다."
+    },
+    {
+      "id": 16,
+      "name": "Notion",
+      "description": "프로젝트를 진행하면서 필요한 일정 관리 및 Task 관리를 진행해보았습니다."
+    }
+  ]
+}
