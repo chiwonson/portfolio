@@ -2,6 +2,7 @@ import ContactItem from "../ContactItem";
 import Introduce from "./Introduce";
 import profileImage from "/images/information/myphoto.JPG";
 
+
 import { DataProps } from "@/types";
 
 const information = {
