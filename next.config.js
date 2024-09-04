@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   webpack: (config) => {
     config.module.rules.push({
-      test: /\.md/,
+      test: /\.md$/,
       use: "raw-loader",
     });
     config.module.rules.push({
@@ -12,6 +12,9 @@ const nextConfig = {
       use: ["@svgr/webpack"],
     });
     return config;
+  },
+  images: {
+    domains: [], // 필요한 도메인을 추가합니다.
   },
 };
 

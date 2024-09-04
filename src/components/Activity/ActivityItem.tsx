@@ -1,11 +1,15 @@
-const ActivityItem = ({
-  name,
-  period,
-  description,
-}: {
+import React from 'react';
+
+interface ActivityItemProps {
   name: string;
   period: string[];
   description: string;
+}
+
+const ActivityItem: React.FC<ActivityItemProps> = ({
+  name,
+  period,
+  description,
 }) => {
   return (
     <div className="flex flex-col md:flex-row gap-6 md:gap-0">
@@ -14,7 +18,7 @@ const ActivityItem = ({
           <h3>{name}</h3>
           <span>{`${period[0]}${period[1] ? " - " + period[1] : ""}`}</span>
         </div>
-        <span className="whitespace-pre-wrap">{`${description}`}</span>
+        <span className="whitespace-pre-wrap">{description}</span>
       </div>
     </div>
   );

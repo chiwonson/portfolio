@@ -1,5 +1,4 @@
 import SectionTitle from "../SectionTitle";
-
 import { SkillProps } from "@/types";
 
 const Skill = ({ skills }: { skills: SkillProps[] }) => {
@@ -21,7 +20,7 @@ const Skill = ({ skills }: { skills: SkillProps[] }) => {
             {/* 기술 태그 부분 */}
             {skill.stack && skill.stack.length > 0 && (
               <div className="flex gap-1 flex-wrap">
-                {skill.stack.map((tech, index) => (
+                {skill.stack.map((tech: string, index: number) => (
                   <span
                     key={index}
                     className="bg-BLACK dark:bg-white py-[2px] px-1.5 rounded-md text-xs font-medium font-mono whitespace-nowrap text-white dark:text-BLACK"

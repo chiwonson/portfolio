@@ -69,4 +69,12 @@ export interface SkillProps {
   name: string;
   description: string; // 기술 설명
   category: string;
+  stack: string[]; // stack이 배열로 정의되어 있다고 가정
+
+}
+export interface Activity {
+   id: number;
+      name: string;
+      description: string;
+      period: string[];
 }

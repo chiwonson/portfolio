@@ -2,18 +2,21 @@ import "@/styles/globals.css";
 import { DefaultSeo } from "next-seo";
 import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
+import React, { ComponentType } from 'react';
+// import { ComponentType, ReactElement } from 'react';
+
 
 /**
- * @description SEO를 위해 본인의 정보로 수정해주세요.
+  @description SEO를 위해 본인의 정보로 수정해주세요.
  */
 const DEFAULT_SEO = {
   title: "손치원 | Developer",
   description: "안녕하세요, 개발자 손치원입니다.",
-  canonical: "https://www.naver.com/",
+  canonical: "https://www.chiwon.com/",
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "https://www.naver.com/",
+    url: "https://www.chiwon.com/",
     title: "손치원 | Dev",
     site_name: "손치원 | Developer",
     images: [
@@ -47,7 +50,8 @@ const DEFAULT_SEO = {
   ],
 };
 
-const App = ({ Component, pageProps }: AppProps) => {
+const App: React.FC<AppProps & { Component: ComponentType<any> }> = ({ Component, pageProps }) => {
+
   return (
     <>
       <DefaultSeo {...DEFAULT_SEO} />

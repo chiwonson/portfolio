@@ -1,15 +1,21 @@
-import SectionTitle from "../SectionTitle";
-import ActivityItem from "./ActivityItem";
+import React from 'react';
 
-import { DataProps } from "@/types";
+import ActivityItem from './ActivityItem';
+import SectionTitle from '@/components/SectionTitle';
 
-const Activity = ({ activity }: Pick<DataProps, "activity">) => {
+import { DataProps } from '@/types';
+
+type ActivityProps = {
+  activity: DataProps['activity']; // DataProps에서 activity의 타입 가져오기
+};
+
+const Activity: React.FC<ActivityProps> = ({ activity }) => {
   return (
     <div>
       <SectionTitle>Activities</SectionTitle>
       <div className="flex flex-col gap-24">
-        {[...activity].reverse().map((activity) => (
-          <ActivityItem key={activity.id} {...activity} />
+        {[...activity].reverse().map((item) => (
+          <ActivityItem key={item.id} {...item} />
         ))}
       </div>
     </div>
