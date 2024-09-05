@@ -74,7 +74,8 @@
     {
       "id": 0,
       "name": "",
-      "description": ""
+      "description": "",
+      "category": ""
     }
   ]
 }

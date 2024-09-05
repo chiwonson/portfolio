@@ -28,12 +28,12 @@
 
   .markdown h1,
   .markdown h2 {
-    @apply pt-4 pb-2;
+    @apply pt-2 pb-1;
   }
 
   .markdown h3,
   .markdown h4 {
-    @apply pt-4 pb-2;
+    @apply pt-2 pb-1;
   }
 
   strong {
@@ -62,8 +62,8 @@
   }
 
   /* skill 구분선 추가*/
-    .category-divider {
-        @apply border-t border-gray-300 dark:border-gray-600 my-8; /* 얇은 구분선 */
-      }
+  category-divider {
+    @apply border-t border-gray-300 dark:border-gray-600 my-8; /* 얇은 구분선 */
+  }
 
 }

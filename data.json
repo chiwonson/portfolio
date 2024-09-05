@@ -180,7 +180,7 @@
     {
       "id": 5,
       "name": "React",
-      "description": "컴포넌트 기반의 웹 애플리케이션을 개발한 경험이 있습니다.JSX를 활용하여 UI를 설계하고,React Router를 사용하여 다중 페이지 애플리케이션에서의 라우팅을 처리해보았으며 Axios를 통해 서버와 데이터를 주고받는 작업도 수행했습니다.\nPython\n간단한 웹 서버 구축에 활용하였습니다. 프레임워크(Flask)를 통해 웹 개발 프로젝트를 진행한 경험이 있습니다.",
+      "description": "컴포넌트 기반의 웹 애플리케이션을 개발한 경험이 있습니다.JSX를 활용하여 UI를 설계하고,React Router를 사용하여 다중 페이지 애플리케이션에서의 라우팅을 처리해보았으며 Axios를 통해 서버와 데이터를 주고받는 작업도 수행했습니다.",
       "category": "Framework"
     },
     {
@@ -249,6 +249,12 @@
       "name": "Notion",
       "description": "프로젝트를 진행하면서 필요한 일정 관리 및 Task 관리를 진행해보았습니다.",
       "category": "Collaborations"
+    },
+    {
+      "id": 17,
+      "name": "JQuery",
+      "description": "동적인 웹 페이지를 구현하였으며, DOM 요소의 조작과 이벤트 처리를 간단하게 수행했습니다.Ajax 요청을 통해 서버와 비동기적으로 데이터를 주고받는 교육을 들었습니다.",
+      "category": "Libraries"
     }
   ]
 }
