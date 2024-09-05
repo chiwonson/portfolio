@@ -14,7 +14,7 @@ const nextConfig = {
     return config;
   },
   images: {
-    domains: [], // 필요한 도메인을 추가합니다.
+    domains: ["https://sonchiwon.vercel.app"], // 필요한 도메인을 추가합니다.
   },
 };
 
