@@ -26,7 +26,7 @@ const Skill = ({ skills }: { skills: SkillProps[] }) => {
           <h2 className="text-2xl font-bold mb-6">{category}</h2>
 
           {/* 카테고리 내의 기술들을 2개씩 한 행에 배치 */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {groupedSkills[category].map((skill) => (
               <div key={skill.id} className="flex flex-col gap-2">
                 <h3 className="text-lg font-semibold">{skill.name}</h3>
