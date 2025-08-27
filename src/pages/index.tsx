@@ -23,7 +23,7 @@ const Home: NextPage<DataProps> = ({
   workExperience,
   project,
   activity,
-//   education,
+  education,
   certificate,
   award,
   skill,
