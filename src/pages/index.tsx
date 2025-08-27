@@ -6,7 +6,7 @@ import { DataProps, WorkExperienceProps, ProjectProps, SkillProps } from "@/type
 
 import Activity from "@/components/Activity";
 import Certificate from "@/components/Certificate";
-import Education from "@/components/Education";
+// import Education from "@/components/Education";
 import Footer from "@/components/Footer";
 import Information from "@/components/Information"; // 올바른 import
 import Layout from "@/components/Layout";
@@ -23,7 +23,7 @@ const Home: NextPage<DataProps> = ({
   workExperience,
   project,
   activity,
-  education,
+//   education,
   certificate,
   award,
   skill,
@@ -34,9 +34,9 @@ const Home: NextPage<DataProps> = ({
       <ResumeTitle resumeTitle={resumeTitle} />
       <Layout>
         <Information information={information} /> {/* 올바른 사용 */}
-        <Education education={education} />
+//         <Education education={education} />
         <Project project={project} />
-        <Skill skills={skill} />
+//         <Skill skills={skill} />
         <WorkExperience workExperience={workExperience} />
         {/* <Activity activity={activity} /> */}
         <Certificate certificate={certificate} />

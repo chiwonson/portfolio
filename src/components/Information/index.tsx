@@ -30,7 +30,7 @@ const Information: React.FC<InformationProps> = ({ information }) => {
         {/* 텍스트 부분 */}
         <h1 className="leading-[1.15]">
           안녕하세요.
-          <br /> 신입개발자{" "}
+          <br /> PLM개발자{" "}
           <span className="text-PRIMARY font-semibold">{information.name}</span>
           입니다.
         </h1>

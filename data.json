@@ -15,21 +15,21 @@
   "workExperience": [
     {
       "id": 0,
-      "name": "이제이텍",
-      "position": "엔지니어",
-      "period": ["2016. 03", "2017. 08"]
+      "name": "",
+      "position": "",
+      "period": ["", ""]
     },
     {
       "id": 1,
-      "name": "진에어",
-      "position": "항공정비 실습생",
-      "period": ["2019. 07", "2019. 08"]
+      "name": "",
+      "position": "",
+      "period": ["", ""]
     },
     {
       "id": 2,
-      "name": "화인이엔지",
-      "position": "배관사",
-      "period": ["2021. 07", "2024.03"]
+      "name": "",
+      "position": "",
+      "period": ["", ""]
     },
     {
       "id": 3,
@@ -42,34 +42,33 @@
   "project": [
     {
       "id": 0,
-      "name": "KOSMO미니 프로젝트",
-      "description": "부품 재고 키오스크 제작",
-      "webUrl": "https://github.com/chiwonson/mini-project",
-      "repoUrl": "https://github.com/chiwonson/mini-project",
+      "name": "삼성 NPLM Project",
+      "description": "Teamcenter, Migration",
+      "webUrl": "",
+      "repoUrl": "",
       "isTeam": true,
-      "period": ["2024. 04.09", "2024. 04.11"],
-      "stack": ["java"]
+      "period": ["2024. 12.16", "2025. 06.2"],
+      "stack": [""]
     },
     {
       "id": 1,
-      "name": "KOSMO 중간 프로젝트",
-      "description": "해외 축구 팬 페이지 제작",
-      "webUrl": "https://github.com/chiwonson/semi-final-project",
-      "repoUrl": "https://github.com/chiwonson/semi-final-project",
+      "name": "GST Project",
+      "description": "Teamcenter, interface",
+      "webUrl": "",
+      "repoUrl": "",
       "isTeam": true,
-      "period": ["2024. 06.03", "2024. 06.11"],
-      "stack": ["Java", "Springboot", "JavaScript", "HTML"]
+      "period": ["2025. 06.23", "2025. 11.01"],
+      "stack": ["", "", "", ""]
     },
     {
       "id": 2,
-      "name": "KOSMO 최종 프로젝트",
-      "description": "빵 관련 웹사이트 제작",
-      "webUrl": "https://github.com/chiwonson/kosmo-final-project",
-      "repoUrl": "https://github.com/chiwonson/kosmo-final-project",
+      "name": "",
+      "description": "",
+      "webUrl": "",
+      "repoUrl": "",
       "isTeam": true,
-      "period": ["2024. 07.15", "2024. 08.27"],
-      "stack": ["SpringBoot", "Flask", "React", "JavaScript", "HTML", "CSS3", "Mysql", "MongoDB", "SpringSecurity",
-        "Thymeleaf", "Apache Maven", "Tomcat"]
+      "period": ["", ""],
+      "stack": [""]
     },
     {
       "id": 3,
