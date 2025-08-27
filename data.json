@@ -112,15 +112,15 @@
   "education": [
     {
       "id": 0,
-      "name": "상지대학교",
-      "period": ["2010. 03", "2016. 02"],
-      "description": "신에너지 자원공학과 졸업"
+      "name": "",
+      "period": [""],
+      "description": ""
     },
     {
       "id": 1,
-      "name": "인하공업전문대학",
-      "period": ["2018. 03", "2020. 02"],
-      "description": "항공기계과 졸업"
+      "name": "",
+      "period": [""],
+      "description": ""
     },
     {
       "id": 2,
@@ -160,88 +160,6 @@
       "id": 1,
       "name": "Python",
       "category":"Language"
-    },
-    {
-      "id": 2,
-      "name": "JavaScript",
-      "category":"Language"
-    },
-    {
-      "id": 3,
-      "name": "Spring Boot",
-      "category": "Framework"
-    },
-    {
-      "id": 4,
-      "name": "Flask",
-      "category": "Framework"
-
-    },
-    {
-      "id": 5,
-      "name": "React",
-      "category": "Framework"
-    },
-    {
-      "id": 6,
-      "name": "Oracle",
-      "category": "Database"
-
-    },
-    {
-      "id": 7,
-      "name": "Mysql",
-      "category": "Database"
-    },
-    {
-      "id": 8,
-      "name": "MongoDB",
-      "category": "Database"
-    },
-    {
-      "id": 9,
-      "name": "Thymeleaf",
-      "category": "Libraries"
-    },
-    {
-      "id": 10,
-      "name": "Spring Security",
-      "category": "Libraries"
-    },
-    {
-      "id": 11,
-      "name": "Maven (Build Tool)",
-      "category": "Libraries"
-    },
-    {
-      "id": 12,
-      "name": "Apache Tomcat (Server)",
-      "category": "Libraries"
-    },
-    {
-      "id": 13,
-      "name": "HTML5",
-      "category": "Client-Side Technologies"
-    },
-    {
-      "id": 14,
-      "name": "CSS3",
-      "category": "Client-Side Technologies"
-    },
-    {
-      "id": 15,
-      "name": "Git & Github",
-      "category": "Collaborations"
-    },
-    {
-      "id": 16,
-      "name": "Notion",
-      "category": "Collaborations"
-    },
-    {
-      "id": 17,
-      "name": "JQuery",
-      "category": "Libraries"
     }
   ]
 }
