@@ -3,7 +3,7 @@ import { DefaultSeo } from "next-seo";
 import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
 import React, { ComponentType } from 'react';
-import { ComponentType, ReactElement } from 'react';
+// import { ComponentType, ReactElement } from 'react';
 
 
 /**
